@@ -12,11 +12,11 @@
     "prepublishOnly" : "npm test && npm run lint",
     "preversion" : "npm run lint",
     "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags",
+    "postversion" : "git push && git push --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ishandutta2007/bot-typescript-library-for-browser-extensions",
+    "url": "git+https://github.com/ishandutta2007/bot-typescript-library-for-browser-extensions"
   },
   "keywords": ["chatbot","chatgpt", "ai"],
   "author": "ishandutta2007",
