@@ -119,11 +119,11 @@ export class BingWebBot extends AbstractBot {
 
   async doSendMessage(params: SendMessageParams) {
     if (!this.conversationContext) {
-      const [conversation, { bingConversationStyle }] = await Promise.all([createConversation(), getUserConfig()])
+      const [conversation0, { bingConversationStyle }] = await Promise.all([createConversation(), getUserConfig()])
       this.conversationContext = {
-        conversationId: conversation.conversationId,
-        conversationSignature: conversation.conversationSignature,
-        clientId: conversation.clientId,
+        conversationId: conversation0.conversationId,
+        conversationSignature: conversation0.conversationSignature,
+        clientId: conversation0.clientId,
         invocationId: 0,
         conversationStyle: bingConversationStyle,
       }

@@ -47,9 +47,9 @@ export class PoeWebBot extends AbstractBot {
     if (!this.conversationContext) {
       console.log('Using poe model', this.botId)
       const { poeSettings, chatId } = await this.getChatInfo()
-      const wsp = await this.connectWebsocket(poeSettings)
+      const wsp0 = await this.connectWebsocket(poeSettings)
       await this.subscribe(poeSettings)
-      this.conversationContext = { chatId, poeSettings, wsp }
+      this.conversationContext = { chatId, poeSettings, wsp0 }
       await this.sendChatBreak().catch(console.error)
     }
 

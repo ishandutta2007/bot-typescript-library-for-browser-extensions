@@ -1,3 +1,4 @@
+/* tslint:disable:max-classes-per-file */
 import Browser from 'webextension-polyfill'
 import { CHATGPT_HOME_URL } from '~app/consts'
 import { proxyFetch } from '~services/proxy-fetch'

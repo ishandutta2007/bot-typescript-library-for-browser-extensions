@@ -50,8 +50,8 @@ export class LMSYSBot extends AbstractBot {
 
   async connectWebsocket(fnIndex: number, sessionHash: string, data: unknown[], onEvent: SendMessageParams['onEvent']) {
     const wsp = new WebSocketAsPromised('wss://chat.lmsys.org/queue/join', {
-      packMessage: (data) => JSON.stringify(data),
-      unpackMessage: (data) => JSON.parse(data as string),
+      packMessage: () => JSON.stringify(data),
+      unpackMessage: () => JSON.parse(data as string),
     })
 
     wsp.onUnpackedMessage.addListener(async (event) => {

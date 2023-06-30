@@ -1,3 +1,4 @@
+/* tslint:disable:max-classes-per-file */
 import { Sentry } from '~services/sentry'
 import { ChatError, ErrorCode } from '~utils/errors'
 

@@ -1,3 +1,4 @@
+/* tslint:disable:max-classes-per-file */
 import { UserConfig } from '~services/user-config'
 import { ChatError, ErrorCode } from '~utils/errors'
 import { parseSSEResponse } from '~utils/sse'
