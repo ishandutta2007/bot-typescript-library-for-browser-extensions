@@ -1,8 +1,133 @@
+Cannot find module './graphql/AddMessageBreakMutation.graphql?raw' or its corresponding type declarations.
+Cannot find module './graphql/ChatViewQuery.graphql?raw' or its corresponding type declarations.
+Cannot find module './graphql/MessageAddedSubscription.graphql?raw' or its corresponding type declarations.
+Cannot find module './graphql/SendMessageMutation.graphql?raw' or its corresponding type declarations.
+Cannot find module './graphql/SubscriptionsMutation.graphql?raw' or its corresponding type declarations.
+Cannot find module './graphql/ViewerStateUpdatedSubscription.graphql?raw' or its corresponding type declarations.
+Cannot find module 'gpt3-tokenizer' or its corresponding type declarations.
+Cannot find module 'i18next' or its corresponding type declarations.
+Cannot find module 'js-base64' or its corresponding type declarations.
+Cannot find module 'lodash-es' or its corresponding type declarations.
+Cannot find module 'md5' or its corresponding type declarations.
+Cannot find module 'ofetch' or its corresponding type declarations.
+Cannot find module 'uuid' or its corresponding type declarations.
+Cannot find module 'webextension-polyfill' or its corresponding type declarations.
+Cannot find module 'websocket-as-promised' or its corresponding type declarations.
+Cannot find module '~/services/user-config' or its corresponding type declarations.
+Cannot find module '~app/consts' or its corresponding type declarations.
+Cannot find module '~app/i18n' or its corresponding type declarations.
+Cannot find module '~app/utils/markdown' or its corresponding type declarations.
+Cannot find module '~app/utils/permissions' or its corresponding type declarations.
+Cannot find module '~services/proxy-fetch' or its corresponding type declarations.
+Cannot find module '~services/sentry' or its corresponding type declarations.
+Cannot find module '~services/storage/token-usage' or its corresponding type declarations.
+Cannot find module '~services/user-config' or its corresponding type declarations.
+Cannot find module '~types/messaging' or its corresponding type declarations.
+Cannot find module '~utils' or its corresponding type declarations.
+Cannot find module '~utils/errors' or its corresponding type declarations.
+Cannot find module '~utils/sse' or its corresponding type declarations.
+Conversion of type 'unknown[]' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+error TS18028: 
+error TS2307: 
+error TS2322: 
+error TS2352: 
+error TS2532: 
+error TS2550: 
+error TS7006: 
+npm ERR! 
+npm ERR!   Object literal may only specify known properties, but 'wsp0' does not exist in type 'ConversationContext'. Did you mean to write 'wsp'?
+npm ERR! A complete log of this run can be found in: 
+npm ERR! src/bots/abstract-bot.ts(2,24): 
+npm ERR! src/bots/abstract-bot.ts(3,38): 
+npm ERR! src/bots/abstract-bot.ts(62,3): 
+npm ERR! src/bots/bard/api.ts(1,24): 
+npm ERR! src/bots/bard/api.ts(2,38): 
+npm ERR! src/bots/bard/index.ts(1,24): 
+npm ERR! src/bots/bard/index.ts(39,25): 
+npm ERR! src/bots/bing/api.ts(1,24): 
+npm ERR! src/bots/bing/api.ts(2,36): 
+npm ERR! src/bots/bing/api.ts(3,22): 
+npm ERR! src/bots/bing/api.ts(4,38): 
+npm ERR! src/bots/bing/index.ts(1,33): 
+npm ERR! src/bots/bing/index.ts(141,40): 
+npm ERR! src/bots/bing/index.ts(2,54): 
+npm ERR! src/bots/bing/index.ts(3,38): 
+npm ERR! src/bots/bing/types.ts(1,39): 
+npm ERR! src/bots/chatgpt-api/index.ts(2,28): 
+npm ERR! src/bots/chatgpt-api/index.ts(3,38): 
+npm ERR! src/bots/chatgpt-api/index.ts(4,34): 
+npm ERR! src/bots/chatgpt-api/index.ts(42,35): 
+npm ERR! src/bots/chatgpt-api/usage.ts(1,32): 
+npm ERR! src/bots/chatgpt-api/usage.ts(4,27): 
+npm ERR! src/bots/chatgpt-azure/index.ts(1,28): 
+npm ERR! src/bots/chatgpt-webapp/arkose.ts(1,24): 
+npm ERR! src/bots/chatgpt-webapp/client.ts(1,35): 
+npm ERR! src/bots/chatgpt-webapp/client.ts(2,38): 
+npm ERR! src/bots/chatgpt-webapp/index.ts(1,30): 
+npm ERR! src/bots/chatgpt-webapp/index.ts(11,15): 
+npm ERR! src/bots/chatgpt-webapp/index.ts(2,33): 
+npm ERR! src/bots/chatgpt-webapp/index.ts(3,38): 
+npm ERR! src/bots/chatgpt-webapp/index.ts(4,34): 
+npm ERR! src/bots/chatgpt-webapp/index.ts(81,35): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(2,21): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(21,23): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(3,34): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(36,67): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(36,76): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(4,28): 
+npm ERR! src/bots/chatgpt-webapp/requesters.ts(5,35): 
+npm ERR! src/bots/chatgpt/index.ts(1,44): 
+npm ERR! src/bots/chatgpt/index.ts(2,38): 
+npm ERR! src/bots/claude-api/index.ts(1,39): 
+npm ERR! src/bots/claude-api/index.ts(2,44): 
+npm ERR! src/bots/claude-api/index.ts(3,38): 
+npm ERR! src/bots/claude-api/index.ts(4,34): 
+npm ERR! src/bots/claude-api/index.ts(50,35): 
+npm ERR! src/bots/claude/index.ts(1,43): 
+npm ERR! src/bots/lmsys/index.ts(1,33): 
+npm ERR! src/bots/lmsys/index.ts(2,25): 
+npm ERR! src/bots/lmsys/index.ts(3,38): 
+npm ERR! src/bots/lmsys/index.ts(54,39): 
+npm ERR! src/bots/lmsys/index.ts(57,46): 
+npm ERR! src/bots/poe/api.ts(1,24): 
+npm ERR! src/bots/poe/api.ts(10,18): 
+npm ERR! src/bots/poe/api.ts(2,17): 
+npm ERR! src/bots/poe/api.ts(3,27): 
+npm ERR! src/bots/poe/api.ts(37,74): 
+npm ERR! src/bots/poe/api.ts(4,37): 
+npm ERR! src/bots/poe/api.ts(5,33): 
+npm ERR! src/bots/poe/api.ts(6,35): 
+npm ERR! src/bots/poe/api.ts(7,38): 
+npm ERR! src/bots/poe/api.ts(8,44): 
+npm ERR! src/bots/poe/api.ts(9,38): 
+npm ERR! src/bots/poe/index.ts(1,19): 
+npm ERR! src/bots/poe/index.ts(174,21): 
+npm ERR! src/bots/poe/index.ts(175,23): 
+npm ERR! src/bots/poe/index.ts(2,33): 
+npm ERR! src/bots/poe/index.ts(3,39): 
+npm ERR! src/bots/poe/index.ts(4,45): 
+npm ERR! src/bots/poe/index.ts(5,38): 
+npm ERR! src/bots/poe/index.ts(52,57): 
+npm ERR! src/bots/poe/index.ts(56,17): 
+npm ERR! src/bots/xunfei/api.ts(1,24): 
+npm ERR! src/bots/xunfei/api.ts(3,38): 
+npm ERR! src/bots/xunfei/index.ts(1,39): 
+npm ERR! src/bots/xunfei/index.ts(2,24): 
+npm ERR! src/bots/xunfei/index.ts(48,35): 
+npm ERR! src/bots/xunfei/index.ts(5,38): 
+npm ERR! src/bots/xunfei/index.ts(6,34): 
+number; poeSettings: 
+Object is possibly 'undefined'.
+Parameter 'data' implicitly has an 'any' type.
+Parameter 'event' implicitly has an 'any' type.
+Parameter 'events' implicitly has an 'any' type.
+Parameter 'message' implicitly has an 'any' type.
+Parameter 'sender' implicitly has an 'any' type.
+Parameter 'tab' implicitly has an 'any' type.
+Parameter 'txt' implicitly has an 'any' type.
+PoeSettings; wsp0: 
+Private identifiers are only available when targeting ECMAScript 2015 and higher.
+Property 'replaceAll' does not exist on type 'string'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2021' or later.
+Type '{ chatId: 
 
-> bot-typescript-library-for-browser-extensions@1.0.0 prepublishOnly
-> npm test && npm run lint
-
-
-> bot-typescript-library-for-browser-extensions@1.0.0 test
-> jest --config jestconfig.json
 

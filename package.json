@@ -8,20 +8,32 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ishandutta2007/bot-typescript-library-for-browser-extensions"
   },
-  "keywords": ["chatbot","chatgpt", "ai"],
+  "keywords": [
+    "chatbot",
+    "chatgpt",
+    "ai"
+  ],
   "author": "ishandutta2007",
   "license": "ISC",
   "dependencies": {
+    "gpt3-tokenizer": "^1.1.5",
+    "i18next": "^22.5.0",
+    "js-base64": "^3.7.5",
+    "lodash-es": "^4.17.21",
+    "md5": "^2.3.0",
+    "ofetch": "^1.0.1",
+    "uuid": "^9.0.0",
+    "webextension-polyfill": "^0.10.0",
     "websocket-as-promised": "^2.0.1"
   },
   "devDependencies": {
